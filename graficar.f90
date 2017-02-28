@@ -7,4 +7,7 @@ y=exp(x/10.0)*sin(x)
 write(10,*) x,y
 enddo
 close(10)
+
+call system ('gnuplot grafica.gp')
+
 end
